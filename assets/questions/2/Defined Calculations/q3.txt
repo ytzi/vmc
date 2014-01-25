@@ -1,0 +1,1 @@
+Denote a @ 1 = 2a and a @ b = b - (b @ (a - 1)). what is 3 @ 1 @ 2 ?

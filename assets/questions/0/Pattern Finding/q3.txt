@@ -1,0 +1,1 @@
+What is the blank element in the sequence: 1, 4, 9, ( ), 32 ?

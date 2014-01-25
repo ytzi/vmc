@@ -1,0 +1,1 @@
+How many primes are less than 49? (Primes are numbers that is divisible only by 1 and itself.)

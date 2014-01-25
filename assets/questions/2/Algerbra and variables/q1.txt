@@ -1,0 +1,1 @@
+Known that 3x+2 = 10, find the sum of nominator and denominator of simplist fraction form of x.

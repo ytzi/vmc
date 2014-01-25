@@ -1,0 +1,1 @@
+Our class has a certain number of people. If I count them 3 by 3, there are 2 left. If I count them 5 by 5, there are 3 left. If I count them 7 by 7, there are 2 left. What is the minimum number of person in our class?

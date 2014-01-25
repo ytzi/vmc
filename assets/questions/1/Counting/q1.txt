@@ -1,0 +1,1 @@
+How many numbers between 1 and 100 have number 7 in it?

@@ -1,0 +1,1 @@
+How many ways we can choose 2 book out of 5 books?

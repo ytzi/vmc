@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size">25sp</dimen>
+    <dimen name="large_text_size">30sp</dimen>
+    <dimen name="question_text_size">40sp</dimen>
+    <dimen name="button_width">250dp</dimen>
+    <dimen name="button_height">40dp</dimen>
+    <dimen name="vertical_padding">25dp</dimen>
+    <dimen name="horizontal_padding">10dp</dimen>
+    <dimen name="image_with">500dp</dimen>
+    <dimen name="image_height">500dp</dimen>
+</resources>

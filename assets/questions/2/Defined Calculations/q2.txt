@@ -1,0 +1,1 @@
+Define a # b = ( a - b ) x 3 . What is 2 # 4 # 6 ?

@@ -1,0 +1,1 @@
+What is the next number in the pattern: 1, 0, 3, 2, 5, 4 ?

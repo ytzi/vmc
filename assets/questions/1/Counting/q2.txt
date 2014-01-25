@@ -1,0 +1,1 @@
+How many ways can we pick 3 numbers in numbers 1 to 9 so that their average is 5? 

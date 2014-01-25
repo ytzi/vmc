@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/speedArithmeticableLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TableRow
+        android:id="@+id/typeSpecificTableRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="@dimen/vertical_padding"
+        android:paddingLeft="@dimen/horizontal_padding"
+        android:paddingRight="@dimen/horizontal_padding"
+        android:paddingTop="@dimen/vertical_padding" >
+
+        <TextView
+            android:id="@+id/questionPromptTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/howManyQuestionText" />
+
+        <EditText
+            android:id="@+id/questionPromptEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+        <Button
+            android:id="@+id/stopButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button" />
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/speedArithmeticQuestionInfoTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="@dimen/horizontal_padding"
+        android:paddingTop="@dimen/vertical_padding"
+        android:text="@string/speedArithmeticQuestionPromptText"
+        android:textSize="@dimen/text_size" />
+
+    <TextView
+        android:id="@+id/speedArithmeticQuestionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="@dimen/horizontal_padding"
+        android:paddingTop="@dimen/vertical_padding"
+        android:textSize="@dimen/large_text_size"
+        android:visibility="invisible" />
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="@dimen/vertical_padding"
+        android:paddingLeft="@dimen/horizontal_padding"
+        android:paddingRight="@dimen/horizontal_padding"
+        android:paddingTop="@dimen/vertical_padding" >
+
+        <EditText
+            android:id="@+id/speedArithmeticAnswerEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:ems="10"
+            android:height="@dimen/button_height"
+            android:inputType="numberSigned|numberDecimal"
+            android:visibility="invisible"
+            android:width="@dimen/button_width" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/speedArithmeticSubmitButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_horizontal|center_vertical"
+            android:height="@dimen/button_height"
+            android:text="@string/submitText"
+            android:visibility="invisible"
+            android:width="@dimen/button_width" />
+
+    </TableRow>
+
+    <ImageView
+        android:id="@+id/speedArithmeticResultImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxHeight="@dimen/image_height"
+        android:maxWidth="@dimen/image_with"
+        android:paddingLeft="@dimen/horizontal_padding"
+        android:paddingTop="@dimen/vertical_padding"
+        android:src="@drawable/blank"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/speedArithmeticResultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="@dimen/horizontal_padding"
+        android:paddingTop="@dimen/vertical_padding"
+        android:textSize="@dimen/text_size"
+        android:visibility="invisible" />
+
+</TableLayout>

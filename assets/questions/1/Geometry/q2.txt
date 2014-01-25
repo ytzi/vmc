@@ -1,0 +1,1 @@
+What is the height of the triangle if it's base is 5 and area 10?
